@@ -41,11 +41,11 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'host' => env('DB_HOST', 'localhost'),
+            'host' => env('DB_HOST', 'ftp.gear.host'),
             'port' => env('DB_PORT', '3306'),
             'database' => env('DB_DATABASE', 'laravelrestful'),
-            'username' => env('DB_USERNAME', 'root'),
-            'password' => env('DB_PASSWORD', ''),
+            'username' => env('DB_USERNAME', 'laravelresetful'),
+            'password' => env('DB_PASSWORD', 'W8e7xZ2vTt3oq41r8x7fSfel0Ge4i2nKEtH77t6gESiRmygqW63jdri6Xwxs'),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
